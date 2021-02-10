@@ -1,4 +1,4 @@
-package Assignment;
+package assignment;
 
 
 abstract class AccountDetails{

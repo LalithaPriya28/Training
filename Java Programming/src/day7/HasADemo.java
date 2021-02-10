@@ -4,7 +4,7 @@ class Employee{
 	String name;
 	Address ad;
 	public Employee(int id, String name, Address ad) {
-		super();
+		//super();
 		this.id = id;
 		this.name = name;
 		this.ad = ad;

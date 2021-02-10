@@ -2,7 +2,7 @@ package day10;
 
 import java.io.IOException;
 
-class Attendance{
+class Attendancee{
 	public void LogIntime(int time) throws IOException{
 		if(time>9) {
 			//throw new ArithmeticException("You are absent");
@@ -18,7 +18,7 @@ public class ThrowsDemo2 {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		Attendance attendence =new Attendance();
+		Attendancee attendence =new Attendancee();
 		attendence.LogIntime(8);
 		
 		

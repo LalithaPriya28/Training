@@ -3,7 +3,7 @@ package ExceptionAssignment;
 
 
 class User{
-	void CheckAge(int age) throws AgeException{
+	void CheckAge(int age) {
 		
 	 if(age<18) {
 		 throw new AgeException("You cannot vote");
