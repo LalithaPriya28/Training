@@ -122,7 +122,7 @@ class Ticket   {
 		sb.append("Gender ").append("\t");
 		sb.append("Fare ");
 		sb.append(System.getProperty("line.separator"));
-		//sb.append(passenger.getName());
+		sb.append(passenger.getName());
 		//sb.append(passenger.getAge()).append("\t");
 		//sb.append(passenger.getGender()).append("\t");
 		sb.append(train.getTicketPrice());
